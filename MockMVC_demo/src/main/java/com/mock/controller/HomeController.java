@@ -21,12 +21,17 @@ public class HomeController {
 	@RequestMapping("/abc")
 	public String data() {
 		
+		System.out.println("fsadgasdf");
+		
+		System.out.println(1.55555);
+		
 		return "dsfasdfa";
 	}
 	
 	@PostMapping("/saveemployee")
 	public Respoce regesteremployee(@RequestBody Employee e) {
 		
+	System.out.print("kdsjfashdbndkf");
 		return serviceimpl.saveemployee(e);
 		
 	}
